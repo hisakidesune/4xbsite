@@ -1,21 +1,59 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>naviana | home</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-  </head>
-  
-    <header>
-      <img src="/header/naviana2.png" alt="logo">
-      <img src="/header/whitebutterfly.gif" height="50" width="50" alt="butterfly" style="vertical-align: middle;">
-    </header>
-
-    <main>
-          <a href="/index.html">homepage</a>
-          <h1 style="text-align:center">page not found</h1>
-          
-
-    </main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - access denied</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="extra-effects.css">
+</head>
+<body>
+    <div class="matrix-rain" id="matrixRain"></div>
+    <div class="site-wrapper crt">
+        <header>
+            <h1 class="site-title" data-text="[ ERROR: ACCESS DENIED ]">[ ERROR: ACCESS DENIED ]</h1>
+        </header>
+        
+        <nav>
+            <a href="/index.html" class="neon-button">return home</a>
+            <a href="/projects.html" class="neon-button">view projects</a>
+            <a href="/homelab.html" class="neon-button">homelab</a>
+        </nav>
+        
+        <main style="display: block;">
+            <div class="error-container">
+                <div class="error-code terminal-cursor">404</div>
+                
+                <h2 class="kaomoji">(╯°□°）╯︵ ┻━┻</h2>
+                
+                <div class="error-message hologram-text">FILE NOT FOUND</div>
+                
+                <div class="retro-alert" style="text-align: left; margin: 20px auto; max-width: 600px;">
+                    <h3>SYSTEM ERROR</h3>
+                    <p><strong>STATUS:</strong> The requested resource could not be located</p>
+                    <p><strong>SUGGESTION:</strong> Check your URL or navigate using the links above</p>
+                    <p><strong>ERROR CODE:</strong> HTTP_404_NOT_FOUND</p>
+                </div>
+                
+                <div class="error-subtitle">
+                    <p>looks like you've wandered into somewhere new....</p>
+                    <p>the page you're looking for has either been moved, deleted, or never existed in the first place.</p>
+                    <p>don't worry though!! happens to the best of us when navigating dis shit! ¯\_(ツ)_/¯</p>
+                </div>
+                
+                
+                <div class="retro-progress" style="margin-top: 20px;">
+                    <div class="progress-block"></div>
+                    <div class="progress-block"></div>
+                    <div class="progress-block active"></div>
+                    <div class="progress-block"></div>
+                    <div class="progress-block"></div>
+                </div>
+            </div>
+        </main>
+    </div>
     
+    <script src="extra-effects.js"></script>
+    
+</body>
 </html>
