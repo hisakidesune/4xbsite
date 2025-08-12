@@ -1,2 +1,2 @@
-# ramdisk.dev
-website for navi
+# private
+website for me
