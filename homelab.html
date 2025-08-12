@@ -1,52 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>loading homelab....</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <style>
-        .photos {
-            width: 600px;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[nova's homelab]</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="extra-effects.css">
 </head>
-
 <body>
-    <header>
-        <img src="/header/naviana2.png" alt="logo">
-        <img src="/header/whitebutterfly.gif" height="50" width="50" alt="butterfly" style="vertical-align: middle;">
-    </header>
-
-    <nav>
-        <a href="/index.html">homepage |</a>
-        <a href="/projects.html">projects |</a>
-        <a href="/homelab.html">homelab |</a>
-        <a href="/keyboards.html">keyboards</a>
-    </nav>
-
-    <main>
-        <h1>・✫・゜・。.</h1>
-
-        <h2 class="subheader">lab specifications</h2>
-        <p><strong>rack</strong> - startech 25u rack</p>
-        <p><strong>switch</strong> - tplink 24 port switch (im too lazy to check model)</p>
-        <p><strong>shelving units</strong> - navepoint server cabinet case 19 inch</p>
-        <p><strong>chest unit</strong> - startech 2u server rack shelf</p>
-        <p><strong>router</strong> - unifi dream machine pro se</p>
-        <p><strong>modem</strong> - motorola mb7621</p>
-        <p><strong>server 1</strong> - r620</p>
-        <p><strong>server 2</strong> - m3be</p>
-        <p><strong>server 3</strong> - m5</p>
-        <p><strong>NAS</strong> - spare parts</p>
-        <p><strong>other</strong> - i have 4 dell optiplex 3020s</p>
-        <p><strong>patch panel</strong> - detroit packing 24-port patch panel</p>
-
-        <p id="updated-date">updated as of october 4th, 2024</p>
-    </main>
-
+    <div class="matrix-rain" id="matrixRain"></div>
+    <div class="site-wrapper crt">
+        <header>
+            <h1 class="site-title">[ accessing homelab.exe ]</h1>
+        </header>
+        <nav>
+            <a href="/index.html" class="neon-button">homepage</a>
+            <a href="/projects.html" class="neon-button">projects</a>
+            <a href="/homelab.html" class="neon-button">homelab</a>
+        </nav>
+        <main>
+            <h2 class="kaomoji terminal-cursor">ヽ(°〇°)ﾉ</h2>
+            <h2 class="subheader hologram-text">my homelab setup</h2>
+            <div class="retro-alert">
+                <h3>the lab</h3>
+                <p>welcome to my homelab page! this is where i neglect my equipment and do stupid shit... but i have a lot of fun with it i guess</p>
+                <p>i wish to implement more and more stuff everyday, but i'm lazy LOL</p>
+            </div>
+            <section id="section1">
+                <div class="lab-content">
+                    <div class="lab-info">
+                        <h3>specs of da lab</h3>
+                        <p><strong>servers:</strong> dell poweredge r620, cisco m3be, cisco m5</p>
+                        <p><strong>networking:</strong> pfsense firewall, unifi equipment</p>
+                        <p><strong>storage:</strong> truenas scale for file storage and backup w/ 8TB and slop junk parts</p>
+                        <p><strong>accessories:</strong> 25U startech rack and 1U shellves, detroit packing patch panels, navepoint chest</p>
+                        <p><strong>misc:</strong> 3 rpi1s, 1 rpi4, 1rpi5, libre potato, 4 optiplex 3020s, 1 optiplex 790</p>
+                        
+                        <h3>current projects</h3>
+                        <p>uuhhhhhh im lazy so idk rn</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
-
 </html>
 
